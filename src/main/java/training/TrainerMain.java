@@ -35,5 +35,8 @@ public class TrainerMain {
         System.out.println(trainer.getNameAndAge());
         System.out.println(trainer.getName());
         System.out.println(trainer.getAge(2022));
+
+        Konstruktor trainer3 = new Konstruktor("József",1978);
+        System.out.println(trainer3.getName());
     }
 }

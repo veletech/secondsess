@@ -2,6 +2,7 @@ package training;
 
 public class TrainerMain {
     public static void main(String[] args) {
+/*
         Trainer trainer = new Trainer();
         trainer.name = "John Doe";
         trainer.yearOfBirth = 1980;
@@ -22,5 +23,17 @@ public class TrainerMain {
 
         System.out.println(trainer1.getAge(2022));
 
+
+        Trainer trainer2 = new Trainer();
+        trainer2.name = "jo Zsi";
+        trainer2.changeName("jack doe");
+        System.out.println(trainer2.name);
+*/
+        Trainer trainer = new Trainer();
+        trainer.setName("Jo Zsi");
+        trainer.setYearOfBirth(2001);
+        System.out.println(trainer.getNameAndAge());
+        System.out.println(trainer.getName());
+        System.out.println(trainer.getAge(2022));
     }
 }

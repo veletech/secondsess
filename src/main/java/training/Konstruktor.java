@@ -5,7 +5,7 @@ public class Konstruktor {
 
     private int yearOfBirth;
 
-    public Konstruktor(String name,int yearOfBirth){
+    public Konstruktor(String name, int yearOfBirth) {
         this.name = name;
         this.yearOfBirth = yearOfBirth;
     }

@@ -1,5 +1,9 @@
 package training;
 
+import sun.security.krb5.internal.ktab.KeyTabOutputStream;
+
+import java.util.Scanner;
+
 public class TrainerMain {
     public static void main(String[] args) {
 /*
@@ -38,5 +42,16 @@ public class TrainerMain {
 
         Konstruktor trainer3 = new Konstruktor("József",1978);
         System.out.println(trainer3.getName());
+
+        System.out.println("What is your name?");
+        Scanner scanner = new Scanner(System.in);
+        String name = scanner.nextLine();
+
+        System.out.println("Year of birth:");
+        int yearOfBirth = scanner.nextInt();
+
+        Konstruktor trainer4 = new Konstruktor(name, yearOfBirth);
+        System.out.println(trainer4.getName());
+
     }
 }
